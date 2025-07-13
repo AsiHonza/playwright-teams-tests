@@ -89,3 +89,7 @@ PlaywrightTests/
 Thank you for the opportunity to work on this assignment.  
 I enjoyed building it and learning new things along the way.  
 I would really appreciate any feedback or suggestions for improvement.
+
+Kind regards,  
+Jan Mlčák
+
