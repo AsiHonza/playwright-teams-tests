@@ -17,7 +17,7 @@ namespace TeamsTestProject.Base
         {
             ClearDownloadsFolder();
             var playwright = await Playwright.CreateAsync();
-            Browser = await playwright.Chromium.LaunchAsync(new() { Headless = false, SlowMo = 50 });
+            Browser = await playwright.Chromium.LaunchAsync(new() { Headless = true, SlowMo = 50 });
             Context = await Browser.NewContextAsync(new BrowserNewContextOptions
             {
                 AcceptDownloads = true
